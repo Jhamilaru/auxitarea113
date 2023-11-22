@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="boton.css">
+    <script
+      src="https://kit.fontawesome.com/acb7689767.js"
+      crossorigin="anonymous"
+    ></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#ini">Inicio</a>
+            <a href="#trai">Trailer</a>
+            <a href="#per">Personajes</a>
+            <a href="#con">Contactos</a>
+        </div>
+    </nav>
+    <header></header>
+    <a name="ini"></a>
+    <h2>Inicio</h2>
+    <p>Dragon Ball Super (ドラゴンボール超スーパー Doragon Bōru Sūpā?) es un anime original producido por Toei Animation bajo el
+        guion escrito de Akira Toriyama. Se trata de una secuela de la serie de anime Dragon Ball Z que sigue las
+        aventuras de Gokū y sus amigos durante el lapso de diez años tras la derrota de Majin Boo. Una adaptación al
+        manga comenzó a serializarse en la revista V Jump de Shūeisha el 20 de junio de 2015.
+
+        La serie anime se emitió en Japón desde el 5 de julio de 2015 hasta el 25 de marzo de 2018. Una película
+        secuela, Dragon Ball Super: Broly, se estrenó el 14 de diciembre de 2018. Una segunda película, Super Hero, se
+        estrenó en cines nipones el 11 de junio de 2022.</p>
+    <a name="trai"></a>
+    <h2>Trailer</h2>
+    <p>¡Ya se dio el gran anuncio! La New York Comic Con 2023 fue el sitio elegido por Toei Animation para lanzar la
+        noticia del nuevo anime de la franquicia “Dragon Ball” y este tiene de nombre “Dragon Ball Daima”. ¿De qué se
+        tratará? Esto es todo lo que se sabe hasta el momento.</p>
+    <div style="text-align: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CYcrmsdZuyw?si=UfeHXcl4SGMcSOAR"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+    <a name="per"></a>
+
+    <h2>Personajes</h2>
+    <ul>
+        <li>Goku</li>
+        <li>vegueta</li>
+        <li>Bills</li>
+        <li>Picolo</li>
+        <li>krillin</li>
+        <li>Otros ...</li>
+    </ul>
+    <div class="container">
+        <figure>
+            <div class="image"><img src="img/goku.jpg" alt="Imagen 4" height="200px" width="250px"></div>
+            <figcaption>Goku</figcaption>
+        </figure>
+        <figure>
+            <div class="image"><img src="img/vegueta.jpg" alt="Imagen 4" height="200px" width="250px"></div>
+            <figcaption>Vegueta</figcaption>
+        </figure>
+        <figure>
+            <div class="image"><img src="img/bills.jpg" alt="Imagen 4" height="200px" width="250px"></div>
+            <figcaption>Bills</figcaption>
+        </figure>
+    </div>
+    <div class="container">
+        <figure>
+            <div class="image"><img src="img/picolo.jpg" alt="Imagen 4" height="200px" width="250px"></div>
+            <figcaption>Picolo</figcaption>
+        </figure>
+        <figure>
+            <div class="image"><img src="img/krillin.jpg" alt="Imagen 4" height="200px" width="250px"></div>
+            <figcaption>krillin</figcaption>
+        </figure>
+        <figure>
+            <div class="image"><img src="img/dragon1.jpg" alt="Imagen 4" height="200px" width="350px"></div>
+            <figcaption>Otros</figcaption>
+        </figure>
+    </div>
+    <a name="con"></a>
+    <h2>Contactos</h2>
+    <div class="row">
+    <label>Nombre Apellido</label><br>
+    <input type="text" size="25" placeholder="Nombre Completo"></input><br>
+    </div>
+    <div class="row">
+    <label>Comentarios</label><br>
+    <input type="text" size="25" placeholder=".........."></input><br>
+    </div>
+    <div class="row">
+    <label>Correo Electrónico</label><br>
+    <input type="email" size="30" maxlength="30" placeholder="nombre@gmail.com"></input><br>
+    </div>
+    <div class="row">
+    <input type="submit" value="Enviar"></input>
+    </div>
+    <footer>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-whatsapp" style="color: #23ae19;"></i>
+    <i class="fa-brands fa-tiktok" style="color: #030303;"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-phone"></i>
+    </footer>
+<script type="text/javascript">
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+        });
+    </script> 
+</body>
+</html>
